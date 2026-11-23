@@ -1,24 +1,26 @@
 # Sistema de Gerenciamento de Eventos
 
-Sistema web desenvolvido como projeto acadêmico, com o objetivo de organizar e gerenciar eventos por meio de uma aplicação web.
-
 ## Sobre o projeto
 
-O sistema reúne funcionalidades relacionadas à autenticação de usuários e ao gerenciamento de eventos, com páginas para cadastro, listagem e visualização de detalhes.
+Sistema web desenvolvido como projeto acadêmico, com o objetivo de facilitar o gerenciamento e a organização de eventos por meio de uma aplicação web.
+
+A aplicação reúne funcionalidades de autenticação de usuários e gerenciamento de eventos, permitindo o cadastro, a listagem e a visualização de detalhes.
 
 ## Funcionalidades
 
-- Login de usuários
-- Cadastro de usuários
-- Logout
-- Listagem de eventos
-- Visualização dos detalhes dos eventos
+- Login de usuários.
+- Cadastro de novos usuários.
+- Logout.
+- Listagem de eventos.
+- Visualização dos detalhes dos eventos.
+- Organização das funcionalidades em páginas independentes.
 
-## Tecnologias utilizadas 
+## Tecnologias utilizadas
 
 - PHP
 - JavaScript
 - CSS
+- HTML
 
 ## Estrutura do projeto
 
@@ -33,7 +35,6 @@ sistema-eventos/
 ├── funcoes.php
 ├── index.php
 ├── login.php
-├── logout.php
 └── README.md
 ```
 
@@ -41,14 +42,28 @@ sistema-eventos/
 
 O projeto utiliza PHP e precisa de um ambiente local compatível para execução.
 
-As instruções específicas de configuração e inicialização dependem da estrutura do ambiente e dos arquivos de dados do projeto.
+1. Faça o download ou clone o repositório.
+2. Configure o ambiente PHP.
+3. Verifique as configurações necessárias para os dados da aplicação.
+4. Inicie o servidor local.
+5. Acesse a aplicação pelo navegador.
+
+As configurações específicas de execução e armazenamento devem seguir a implementação presente no projeto.
+
+## Objetivo acadêmico
+
+O projeto tem como finalidade aplicar conhecimentos de desenvolvimento web, organização de código, autenticação de usuários e implementação de funcionalidades para gerenciamento de eventos.
 
 ## Colaboradores
 
-Projeto desenvolvido em colaboração acadêmica.
+Projeto desenvolvido em equipe.
 
-Consulte a seção de contribuidores do repositório para conhecer os participantes.
+- Stefanne Dias
+- Lívia Borges
+- Anne Teixeira
+- Fernando Gomes
+- Pedro Augusto
 
----
+## Repositório
 
-**Status:** Projeto acadêmico.
+[GitHub – Sistema de Gerenciamento de Eventos](https://github.com/stefannevitoriia/sistema-eventos)
