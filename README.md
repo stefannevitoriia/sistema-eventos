@@ -14,7 +14,7 @@ O sistema reúne funcionalidades relacionadas à autenticação de usuários e a
 - Listagem de eventos
 - Visualização dos detalhes dos eventos
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas 
 
 - PHP
 - JavaScript
