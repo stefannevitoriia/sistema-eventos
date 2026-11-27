@@ -27,8 +27,9 @@ usort($eventos, function ($a, $b) {
 </head>
 
 <body>
-
+    <?php require 'menu.php'; ?>
     <main class="container">
+    <?php mostrar_mensagem(); ?> 
 
         <h1>Eventos disponíveis</h1>
 
@@ -94,6 +95,6 @@ usort($eventos, function ($a, $b) {
         <?php endif; ?>
 
     </main>
-
+<script src="js/scripts.js"></script>
 </body>
 </html>
