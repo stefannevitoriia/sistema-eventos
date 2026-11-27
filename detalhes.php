@@ -44,8 +44,11 @@ if ($eventoEncontrado === null) {
 </head>
 
 <body>
+    <?php require 'menu.php'; ?>
 
     <main class="container">
+
+    <?php mostrar_mensagem(); ?> 
 
         <?php if ($eventoEncontrado === null): ?>
 
@@ -90,6 +93,15 @@ if ($eventoEncontrado === null) {
                     <?= e($eventoEncontrado['local'] ?? '') ?>
                 </p>
 
+                <?php if (usuario_ja_agendou($_SESSION['usuario_id'], $eventoEncontrado['id'])): ?>
+                    <p class="mensagem sucesso">Você já está agendado neste evento.</p>
+                <?php else: ?>
+                    <form method="post" action="agendar.php">
+                        <?= campo_csrf() ?>
+                        <input type="hidden" name="evento_id" value="<?= e($eventoEncontrado['id']) ?>">
+                        <button type="submit">Agendar</button>
+                    </form>
+                <?php endif; ?>
             </section>
 
         <?php endif; ?>
@@ -99,6 +111,6 @@ if ($eventoEncontrado === null) {
         </p>
 
     </main>
-
+<script src="js/scripts.js"></script>
 </body>
 </html>
